@@ -1,0 +1,169 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  height: 1050px;
+  width: 700px;
+  display: grid;
+  grid-template-rows: 26% 15% 35% 1fr;
+  grid-template-columns: 26% 1fr;
+  grid-template-areas: 
+  "photo title"
+  "info expertise"
+  "info history"
+  "info education";
+  grid-gap: 0 30px;
+  font-family: sans-serif;
+  border: 1px solid black
+}
+
+.photo {
+grid-area: photo;
+padding: 30px 0 0 30px;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 900;
+  padding-top: 19px;
+}
+
+.line-one {
+  background-color: #270D5D;
+  width: 470px;
+  float: left;
+  margin-bottom: 23px;
+}
+
+hr {
+  margin-bottom: 17px;
+}
+
+.title {
+  grid-area: title;
+  color: #3b1488;
+  font-size: 15px;
+}
+
+.heading {
+  color: #3b1488; 
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: .15em;
+}
+
+.info {
+  grid-area: info;
+  background-image: linear-gradient(to top right,#0cd6fa,#474de7) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  font-size: 11px;
+  color: white;
+  text-align: center;
+}
+
+.expertise {
+  grid-area: expertise;
+  color: rgb(138, 137, 137);
+  font-size: 15px;
+  margin-top: 19px;
+}
+
+.history {
+  grid-area: history;
+  color: rgb(138, 137, 137);
+}
+
+.education {
+  grid-area: education;
+  color: rgb(138, 137, 137);
+  font-size: 15px;
+}
+
+.sub-heading {
+  color: rgb(117, 117, 117);
+  font-weight: bold;
+}
+
+.last-heading {
+  font-size: 12px;
+}
+
+.icons {
+  height: 35px;
+}
+
+.line-two {
+  width: 130px;
+}
+
+.icon-one {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.icon-two {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.icon-three {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.icon-four {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info-head {
+  font-size: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
