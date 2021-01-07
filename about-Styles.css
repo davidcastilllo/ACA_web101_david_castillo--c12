@@ -57,5 +57,13 @@ footer {
   border-radius: 10px;
   font-size: 15px;
   padding-top: 10px;
+  margin-bottom: 40px;
 }
 
+@media (max-width: 576px) {
+  footer {
+    width: 400px;
+    font-size: 13px;
+    padding: 10px;
+  }
+}
