@@ -1,4 +1,62 @@
 body {
-  border: 1px solid black;
-  color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Poppins;
+  background-color: whitesmoke;
+  text-align: center;
+  line-height: 25px;
+}
+
+img {
+  margin-top: 50px;
+  height: 470px;
+  width: 416px;
+  box-shadow: 15px 12px 10px 1px rgba(43, 43, 53, 0.918);
+}
+
+header div {
+  margin: 30px 0 10px 0;
+  font-size: 35px;
+  font-weight: 800;
+}
+
+header article {
+  margin: 30px 0 40px 0;
+}
+
+span {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+ul {
+  line-height: 40px;
+  list-style-type: circle;
+}
+
+.body {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+
+.hobbies {
+  margin: 40px;
+  
+}
+
+.Extra-info {
+  margin: 40px;
+}
+
+footer {
+  background-color: rgb(177, 175, 175);
+  height: 100px;
+  width: 600px;
+  border-radius: 10px;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
 }
