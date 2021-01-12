@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactpage.css">
+    <link rel="stylesheet" href="contactpage-reset.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Contact me!</h1>
+    </header>
+    <form action="/example.html" method="POST" id="form1">
+        <div class="input">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="name">Email:</label>
+            <input type="text" id="email" name="email">
+
+            <label for="method">How did you hear about me?</label> 
+            <select id="method" name="User-heard-about-me-by:" >
+                <option value="Classmate">Classmate</option>
+                <option value="Resume-Submission">Resume Submission</option>
+                <option value="LinkedIn">LinkedIn</option>
+                <option value="Coding-Academy-Rec">Coding Academy Rec</option>
+                <option value="Other">Other</option>
+            </select>
+            
+            <p>Would you like to be contaced back?</p>
+            <label for="Yes" >Yes</label>
+            <input type="radio" value="Yes">
+            <label for="No" >No</label>
+            <input type="radio" value="No">
+            <br>
+
+            <label for="BdayMessage">Would you like to recieve a birtdhay Message?</label>
+            <input type="date">
+
+            <label for="extras">Additional:</label>
+            <textarea id="extras" name="comments" rows="4" >Comments or questions</textarea>
+            
+            <button type="submit" form="form1" value="Submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
