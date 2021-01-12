@@ -17,7 +17,7 @@ body {
     height: 650px;
     padding: 25px;
     font-size: 16px;
-    
+    background-color: bisque;
 }
 
 input[type=text]:focus {
