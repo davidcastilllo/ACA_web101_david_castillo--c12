@@ -2,9 +2,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(./BackGroundImage.jpg);
+  background-image: url(Background.png);
 }
-/* What kind of selector is this? */
 .logo {
   width: 150px;
   height: 150px;
@@ -24,7 +23,7 @@ main {
   grid-template-columns: 30% 40% 30%;
 }
 
-/* This is an element within and element selector */ 
+
 nav > a {
  color: black;
 font-size: 40px;
@@ -45,18 +44,20 @@ nav {
 }
 /* This is an ID selector */
 #profile-pic {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
   margin: 15% auto;
   grid-column: 2/3;
+  border: 5px solid black;
 }
 
 h1 {
-  color:white;
+ 
+  color:black;
   grid-column: 2/3;
   margin: 3% auto;
-  border-bottom: 2px solid #1940A9;;
+  border-bottom: 2px solid black;;
 }
 
 h2 {
@@ -80,7 +81,7 @@ button {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   border-radius: 25px;
-  background: transparent;
+  background: rgb(51, 51, 51);
   padding: 20px;
   padding-bottom: 5%;
   color: white;
